@@ -7,7 +7,7 @@ public class StudentRepositoryImpl implements StudentRepository {
         System.out.println("Student Name: Mave Ndjangusi Olive");
         System.out.println("Registration Number: 25-1079-BIT-S");
         System.out.println("Course: Bachelor of Information Technology");
-        System.out.println("Student Year: 2:1");
+        System.out.println("Academic Level: Year 2 Semester 1");
         System.out.println("University: IUEA");
     }
     public void displayStudentStatus() {
