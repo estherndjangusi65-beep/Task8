@@ -9,4 +9,7 @@ public class StudentRepositoryImpl implements StudentRepository {
         System.out.println("Student Year: 2:1");
         System.out.println("University: IUEA");
     }
+    public void displayStudentStatus() {
+        System.out.println("Student Status: Registered");
+    }
 }
