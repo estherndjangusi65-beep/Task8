@@ -9,6 +9,7 @@ public class StudentService {
     public void showStudent() {
         System.out.println("Displaying student details...");
         repository.displayStudent();
+        System.out.println("Student information displayed successfully.");
     }
 
     public void displayWelcomeMessage() {
