@@ -7,10 +7,13 @@ public class StudentService {
         this.repository = repository;
     }
     public void showStudent() {
+        System.out.println("Displaying student details...");
         repository.displayStudent();
     }
 
     public void displayWelcomeMessage() {
         System.out.println("Welcome to the School Management System!");
     }
+
+
 }
