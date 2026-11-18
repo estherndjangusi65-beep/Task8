@@ -9,4 +9,8 @@ public class StudentService {
     public void showStudent() {
         repository.displayStudent();
     }
+
+    public void displayWelcomeMessage() {
+        System.out.println("Welcome to the School Management System!");
+    }
 }
