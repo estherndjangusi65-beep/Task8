@@ -6,6 +6,7 @@ public class StudentRepositoryImpl implements StudentRepository {
     public void displayStudent() {
         System.out.println("Student Name: Mave");
         System.out.println("Course: Bachelor of Information Technology");
+        System.out.println("Student Year: 2:1");
         System.out.println("University: IUEA");
     }
 }
