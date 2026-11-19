@@ -13,6 +13,4 @@ public class StudentRepositoryImpl implements StudentRepository {
     public void displayStudentStatus() {
         System.out.println("Student Status: Registered");
     }
-
-
 }

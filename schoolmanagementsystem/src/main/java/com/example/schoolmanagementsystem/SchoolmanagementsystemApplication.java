@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SchoolmanagementsystemApplication
 		implements CommandLineRunner {
 	private final StudentService studentService;
-	// Constructor Injection
 	public SchoolmanagementsystemApplication(StudentService studentService) {
 		this.studentService = studentService;
 	}

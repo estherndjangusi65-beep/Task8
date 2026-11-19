@@ -11,10 +11,7 @@ public class StudentService {
         repository.displayStudent();
         System.out.println("Student information displayed successfully.");
     }
-
     public void displayWelcomeMessage() {
         System.out.println("Welcome to the School Management System!");
     }
-
-
 }
